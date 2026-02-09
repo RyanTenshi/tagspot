@@ -1,0 +1,38 @@
+{
+  "name": "tagspot",
+  "version": "1.0.0",
+  "description": "Вы будете работать над сервисом TagSpot: интерактивной страницей, куда можно\r добавлять фотографии, удалять их и ставить лайки.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack serve"
+  },
+  "repository": {
+    "url": "git+https://github.com/RyanTenshi/tagspot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RyanTenshi/tagspot/issues"
+  },
+  "homepage": "https://github.com/RyanTenshi/tagspot#readme",
+  "devDependencies": {
+    "@babel/core": "^7.28.6",
+    "@babel/preset-env": "^7.28.6",
+    "autoprefixer": "^10.4.23",
+    "babel-loader": "^10.0.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^7.1.2",
+    "cssnano": "^7.1.2",
+    "html-webpack-plugin": "^5.6.6",
+    "mini-css-extract-plugin": "^2.10.0",
+    "postcss-loader": "^8.2.0",
+    "webpack": "^5.104.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.3"
+  },
+  "dependencies": {
+    "core-js": "^3.48.0"
+  }
+}
